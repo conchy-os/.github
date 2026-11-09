@@ -26,12 +26,12 @@ Conchy OS is designed from the ground up for modern hardware, high-DPI/OLED HDR 
 
 | Repository | Purpose | Language |
 | :--- | :--- | :--- |
-| [**`conchy`**](https://github.com/conchy-os/conchy) | The scrolling-tiling Wayland compositor (Niri fork with HDR, tearing, and explicit sync) | Rust |
+| [**`conchy-wm`**](https://github.com/conchy-os/conchy-wm) | The scrolling-tiling Wayland compositor (Niri fork with HDR, tearing, and explicit sync) | Rust |
 | [**`smithay`**](https://github.com/conchy-os/smithay) | Upstream engine fork powering Conchy with DRM atomic colorop & connector HDR pipelines | Rust |
-| [**`conchy-session`**](https://github.com/conchy-os/conchy-session) | Lightweight session orchestrator & process supervisor replacing `systemd --user` on Void | Rust |
-| [**`conchy-shell`**](https://github.com/conchy-os/conchy-shell) | Minimalist desktop shell, status bar, OSD, and quick settings | Rust |
-| [**`conchy-packages`**](https://github.com/conchy-os/conchy-packages) | Official XBPS package templates and prebuilt binary repository | Shell / C |
-| [**`conchy-os`**](https://github.com/conchy-os/conchy-os) | Main distribution repository, live ISO builders, automated installer, and system guides | Shell / Docs |
+| [**`conchy-session`**](https://github.com/conchy-os/conchy-wm-session) | Lightweight session orchestrator & process supervisor replacing `systemd --user` on Void | Rust |
+| [**`conchy-shell`**](https://github.com/conchy-os/conchy-wm-shell) | Minimalist desktop shell, status bar, OSD, and quick settings | Rust |
+| [**`conchy-packages`**](https://github.com/conchy-os/conchy-wm-packages) | Official XBPS package templates and prebuilt binary repository | Shell / C |
+| [**`conchy-os`**](https://github.com/conchy-os/conchy-wm-os) | Main distribution repository, live ISO builders, automated installer, and system guides | Shell / Docs |
 
 ---
 
